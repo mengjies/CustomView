@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mj.customview.activity.CustomView1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <com.mj.customview.view.widget.CustomView4
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"/>
+
+        <com.mj.customview.view.widget.CustomView4
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            custom:dotCount="18"
+            custom:dotSpace="12"
+            custom:strokeWidth="12dp"/>
+
+        <com.mj.customview.view.widget.CustomView3
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            custom:strokeWidth="100dp"
+            />
+
+        <com.mj.customview.view.widget.CustomView3
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            custom:strokeWidth="20dp"
+            />
+
+        <com.mj.customview.view.widget.CustomView2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            custom:text="imagessssssssss"
+            custom:textSize="@dimen/text_size_m"
+            custom:textColor="@color/colorAccent"
+            custom:image="@mipmap/ic_launcher"
+            custom:imageScaleType="center"
+            />
+
+        <com.mj.customview.view.widget.CustomView2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            custom:text="image"
+            custom:textSize="@dimen/text_size_m"
+            custom:textColor="@color/colorAccent"
+            custom:image="@mipmap/ic_launcher_round"
+            custom:imageScaleType="fillXY"
+            />
+
+        <com.mj.customview.view.widget.CustomView1
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            custom:text="@string/view1_text"
+            custom:textSize="@dimen/text_size_l"
+            custom:textColor="@color/text_color_gray" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

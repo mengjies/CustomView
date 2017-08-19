@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="view1_text">自定义视图</string>
+</resources>
